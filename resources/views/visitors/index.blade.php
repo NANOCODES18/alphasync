@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Main Syncs - Bitcoin and Crypto Currency</title>
+    <title>Alpha Sync - Bitcoin and Crypto Currency</title>
 
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -63,7 +63,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
                     <h1 class="logo me-auto me-lg-0">
-                        <a href="index.html">Main Syncs</a>
+                        <a href="index.html">Alpha Sync</a>
                     </h1>
                     <!-- Uncomment below if you prefer to use an image logo -->
                     <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -89,7 +89,7 @@
                             <BR>
                             <br>
 
-                            <h2>Main Syncs is a decentralized protocol and platform that combines Blockchain and DeFi,
+                            <h2>Alpha Sync is a decentralized protocol and platform that combines Blockchain and DeFi,
                                 implementing elements from Blockchain with non-custodial management, Micropools, instant
                                 liquidity and decentralized governance.Each process are been required to be filled out
                                 respectively. Validation of wallet will be completed below as follows</h2>
