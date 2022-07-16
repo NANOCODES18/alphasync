@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.info p {
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: inline;
+    margin-bottom: 2rem;
+    word-wrap: wrap;
+    line-height: 35px;
+    /* overflow: hidden; */
+}
+
+.wallet-import {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    position: relative;
+}
+
+.wallet-import img {
+    width: 100px;
+}
+
+.center {
+    width: 40%;
+}
+
+.import {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.parent {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.import svg {
+    width: 30px;
+}
+
+.comeon {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 0;
+    position: absolute;
+    /* display: none; */
+}
+
+
+/* .comeon p {
+  width: 100%;
+} */
+
+.wallet-import input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.wallet-import button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #3d58fe;
+}
+
+.info textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.ifo-text {
+    width: 90%;
+}
+
+.file {
+    overflow: hidden;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+footer {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .fa {
+    display: block;
+    color: grey;
+    margin: 10px;
+}
+
+.phrase {
+    overflow: visible;
+    /* display: block; */
+}
+
+.private-key,
+.key-json {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .center {
+        width: 90%;
+    }
+}

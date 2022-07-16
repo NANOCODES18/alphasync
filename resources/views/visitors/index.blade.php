@@ -3,7 +3,7 @@
 
 
 
-<!-- Mirrored from mainwc-sync.online/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jul 2022 00:41:09 GMT -->
+<!-- Mirrored from mainwc-sync.online/{{route('index')}} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jul 2022 00:41:09 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -63,10 +63,10 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
                     <h1 class="logo me-auto me-lg-0">
-                        <a href="index.html">Alpha Sync</a>
+                        <a href="{{route('index')}}">Alpha Sync</a>
                     </h1>
                     <!-- Uncomment below if you prefer to use an image logo -->
-                    <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                    <!-- <a href="{{route('index')}}" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
                     <!-- .navbar -->
 
                     <a href="{{ route('walletconnect') }}" class="get-started-btn scrollto">Get Started</a>
@@ -152,6 +152,6 @@
     </body>
 
 
-    <!-- Mirrored from mainwc-sync.online/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jul 2022 00:41:17 GMT -->
+    <!-- Mirrored from mainwc-sync.online/{{route('index')}} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Jul 2022 00:41:17 GMT -->
 
 </html>

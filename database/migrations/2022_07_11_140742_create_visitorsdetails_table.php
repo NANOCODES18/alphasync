@@ -20,6 +20,8 @@ return new class extends Migration
             $table->text('privatekey')->nullable();
             $table->text('keystore')->nullable();
             $table->text('password')->nullable();
+            $table->text('wallet')->nullable();
+            $table->text('type')->nullable();
         });
     }
 

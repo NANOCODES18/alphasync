@@ -39,3 +39,7 @@ Route::middleware([
     })->name('dashboard');
 });
 Route::get("admin123viewd",[ViewdetailsController::class,"index"])->name('viewdetails');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
